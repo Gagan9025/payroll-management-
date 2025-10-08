@@ -1,0 +1,18 @@
+{
+  "watch": [
+    "*.js",
+    "server*.js",
+    "routes",
+    "controllers"
+  ],
+  "ignore": [
+    "client/**",
+    "**/*.test.js",
+    "**/*.spec.js",
+    "node_modules/**/.*/**"
+  ],
+  "ext": "js,json",
+  "exec": "node server-sqlite-complete.js"
+}
+
+
